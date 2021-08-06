@@ -1,3 +1,26 @@
+:root {
+--primary-font: 'Georama', sans-serif;
+--primary-color: pink;
+--background-color: rgb(227, 248, 227);
+}
+
 p, h1 {
     font-family: 'Georama', sans-serif;
+    text-align: center;
+
+}
+
+.hero {
+    background: var(--background-color);
+    padding: 30px 10px;
+    margin: 20px;
+}
+
+.hero button {
+   display: block;
+   margin: auto;
+}
+
+.location {
+    font-weight: 500;
 }
