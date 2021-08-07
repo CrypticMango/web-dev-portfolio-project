@@ -31,17 +31,19 @@ p {
     color: var(--accent-color);
 }
 
-.hero {
+.name, .hello, .fa-circle {
     padding: 160px 20px;
 }
 
-.hero button {
-   display: block;
-   margin: auto;
+.name {
+    position: relative;
+    left: -150px;
 }
 
-.location {
-    font-weight: 500;
+.hello {
+    position: relative;
+    left: 200px;
+    top: 80px;
 }
 
 .btn-success {
@@ -58,4 +60,32 @@ p {
     background: var(--accent-color);
     color: var(--text-color-main);
     border-color: rgb(240, 227, 229);
+}
+
+hr {
+    color: var(--text-color-main);
+    width: 8%;
+    height: 20px;
+    border: none;
+}
+
+.homepage-dev-hello {
+    text-align: left;
+}
+
+.homepage-name {
+    text-align: left;
+}
+
+.fab, .fas {
+    font-size: 40px;
+}
+
+.fa-circle {
+    font-size: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
 }
