@@ -1,6 +1,13 @@
 :root {
 --primary-font: 'Georama', sans-serif;
---background-color: rgb(227, 248, 227);
+--background-color: #161616;
+--text-color-main: #B4A5A5;
+--text-color-secondary: #3D425D;
+--accent-color: #311C40;
+}
+
+body {
+background-color: var(--background-color);
 }
 
 p, h1, h2 {
@@ -10,19 +17,21 @@ p, h1, h2 {
 
 h1 {
     font-size: 96px;
+    color: var(--text-color-main);
 }
 
 h2 {
     font-size: 24px;
+    color: var(--text-color-secondary);
 }
 
 p {
     font-size: 36px;
     font-weight: bold;
+    color: var(--accent-color);
 }
 
 .hero {
-    background: var(--background-color);
     padding: 160px 20px;
 }
 
@@ -40,11 +49,13 @@ p {
     border-radius: 40px;
     font-weight: 500;
     font-family: var(--primary-font);
+    color: var(--accent-color);
+    background: var(--text-color-main);
+    border-color: var(--background-color);
 }
 
 .btn-success:hover {
-    background: rgb(197, 104, 118);
-    color: rgb(121, 223, 121);
+    background: var(--accent-color);
+    color: var(--text-color-main);
     border-color: rgb(240, 227, 229);
-    
 }
