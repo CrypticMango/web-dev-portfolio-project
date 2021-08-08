@@ -71,6 +71,9 @@ hr {
 
 .homepage-dev-hello {
     text-align: left;
+    color: var(--text-color-main);
+    font-size: 40px;
+
 }
 
 .homepage-name {
@@ -88,4 +91,14 @@ hr {
 a {
     text-decoration: none;
     color: var(--accent-color);
+}
+
+.home-page-hobbies {
+    color: var(--text-color-secondary);
+    font-size: 20px;
+}
+
+.learn-more {
+    font-size: 25px;
+    color: var(--text-color-main);
 }
