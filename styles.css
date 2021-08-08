@@ -3,7 +3,7 @@
 --background-color: #161616;
 --text-color-main: #B4A5A5;
 --text-color-secondary: #3D425D;
---accent-color: #311C40;
+--accent-color: #CA3F48;
 }
 
 body {
@@ -33,9 +33,26 @@ p {
 
 h3 {
     color: var(--text-color-main);
-    font-size: 60px;
+    font-size: 55px;
 }
 
+span {
+    color: var(--text-color-main);
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+footer {
+    color: var(--text-color-main);
+    background: rgb(20, 20, 20);
+}
+
+hr {
+    color: var(--accent-color);
+}
 .name, .hello, .fa-circle {
     padding: 230px 20px;
 }
@@ -82,15 +99,6 @@ h3 {
     font-size: 40px;
 }
 
-.fa-circle {
-    font-size: 400px;
-}
-
-a {
-    text-decoration: none;
-    color: var(--accent-color);
-}
-
 .home-page-hobbies {
     color: var(--text-color-secondary);
     font-size: 20px;
@@ -98,20 +106,40 @@ a {
 
 .learn-more {
     font-size: 25px;
-    color: var(--text-color-secondary);
 }
 
 .navbar-nav {
     position: relative;
-    left: 1600px;
-}
-
-span {
-    color: var(--text-color-main);
+    left: 1550px;
 }
 
 .value-one, .value-two, .value-three, .value-four {
     background-color: var(--text-color-main);
     font-size: 35px;
     text-align: center;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.footer-name-email {
+    position: relative;
+    left: 160px;
+}
+
+.be-friends {
+    position: relative;
+    left: 20px;
+}
+
+.footer-nav {
+    position: relative;
+    left: 175px;
+}
+
+.pink-blob {
+    width: 600px;
+    position: relative;
+    top: 70px;
 }
