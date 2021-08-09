@@ -57,17 +57,6 @@ hr {
     padding: 230px 20px;
 }
 
-.name {
-    position: relative;
-    left: -150px;
-}
-
-.hello {
-    position: relative;
-    left: 200px;
-    top: 80px;
-}
-
 .btn-success {
     padding: 20px 30px;
     border-radius: 40px;
@@ -108,11 +97,6 @@ hr {
     font-size: 25px;
 }
 
-.navbar-nav {
-    position: relative;
-    left: 1550px;
-}
-
 .value-one, .value-two, .value-three, .value-four {
     background-color: var(--text-color-main);
     font-size: 35px;
@@ -122,21 +106,6 @@ hr {
 
 .copyright {
     text-align: center;
-}
-
-.footer-name-email {
-    position: relative;
-    left: 160px;
-}
-
-.be-friends {
-    position: relative;
-    left: 20px;
-}
-
-.footer-nav {
-    position: relative;
-    left: 175px;
 }
 
 .pink-blob {
@@ -149,7 +118,14 @@ a:hover {
     color: var(--text-color-main);
 }
 
-/*.name-blob-designer {
-    background-image: url('images/B4A5A5.jpg');
-    background-position: ;
-}*\
+@media (max-width:768px) {
+    .homepage-dev-hello, .hello {
+       text-align: center;
+    }
+ }
+
+ @media (max-width:768px) {
+     .pink-blob {
+        display: none;
+     }
+ }
