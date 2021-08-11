@@ -206,3 +206,11 @@ a:hover {
     position: relative;
     left: -25px;
 }
+
+.about-my-skills {
+    color: var(--text-color-main);
+}
+
+.about-page-socials {
+    text-align: center;
+}
