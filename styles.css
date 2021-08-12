@@ -108,7 +108,7 @@ font-size: 20px;
 }
 
 .value-one, .value-two, .value-three, .value-four {
-    background-color: var(--text-color-main);
+    background-color: var(--accent-color);
     font-size: 35px;
     text-align: center;
    
@@ -224,10 +224,10 @@ color: var(--text-color-main);
 .title-underline {
     border: 5px solid var(--accent-color);
     width: 100px;
-    position: relative;
-    left: 1079px;
+   margin-left: auto;
+margin-right: auto;
     opacity: .75;
-    margin: 0;
+   
 }
 
 .contact-image, .about-image {
