@@ -3,7 +3,7 @@
 --background-color: #161616;
 --text-color-main: #B4A5A5;
 --text-color-secondary: #3D425D;
---accent-color: #CA3F48;
+--accent-color: #e64855;
 }
 
 body {
@@ -156,8 +156,6 @@ a:hover {
      color: var(--text-color-main);
  }
 
-
-
  .skill-lists {
     width: 100%; /* Full width */
     background-color: var(--text-color-main); /* Grey background */
@@ -213,4 +211,25 @@ a:hover {
 
 .about-page-socials {
     text-align: center;
+}
+
+.contact-info a {
+color: var(--text-color-main);
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.title-underline {
+    border: 5px solid var(--accent-color);
+    width: 100px;
+    position: relative;
+    left: 1079px;
+    opacity: .75;
+    margin: 0;
+}
+
+.contact-image, .about-image {
+    border-radius: 35px;
 }
