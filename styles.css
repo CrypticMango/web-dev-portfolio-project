@@ -233,3 +233,7 @@ margin-right: auto;
 .contact-image, .about-image {
     border-radius: 35px;
 }
+
+.about-contact-bottom {
+    color: var(--text-color-main);
+}
