@@ -241,3 +241,8 @@ margin-right: auto;
 .about-contact-bottom {
     color: var(--text-color-main);
 }
+
+.card-text {
+    font-size: 15px;
+    text-align: left;
+}
