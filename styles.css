@@ -6,7 +6,10 @@
 	--accent-color: #e64855;
 }
 
-body {
+body, .btn-success, .value-one,
+.value-two,
+.value-three,
+.value-four, .ski  {
 	background-color: var(--background-color);
 }
 
@@ -16,52 +19,66 @@ h2,
 h3,
 ul {
 	font-family: "Georama", sans-serif;
-	text-align: center;
+}
+
+p,
+h1,
+h2,
+h3,
+ul, .value-one,
+.value-two,
+.value-three,
+.value-four, .copyright, .about-page-socials{
+    text-align: center;
+}
+
+h1, h3, span, footer, ul, .btn-success:hover, .homepage-dev-hello , .value-one,
+.value-two,
+.value-three,
+.value-four, a:hover, .here-link, .about-my-skills, .contact-info a, .about-contact-bottom {
+    color: var(--text-color-main);
+}
+
+p, a, hr, .btn-success, .btn-success:hover {
+    color: var(--accent-color);
+}
+
+.home-page-hobbies, h2 {
+    color: var(--text-color-secondary);
 }
 
 h1 {
 	font-size: 96px;
-	color: var(--text-color-main);
 }
 
 h2 {
 	font-size: 24px;
-	color: var(--text-color-secondary);
 }
 
 p {
 	font-size: 36px;
 	font-weight: bold;
-	color: var(--accent-color);
 }
 
 h3 {
-	color: var(--text-color-main);
 	font-size: 55px;
-}
-
-span {
-	color: var(--text-color-main);
 }
 
 a {
 	text-decoration: none;
-	color: var(--accent-color);
 }
 
 footer {
-	color: var(--text-color-main);
 	background: rgb(20, 20, 20);
 }
 
-hr {
-	color: var(--accent-color);
+ul, .homepage-dev-hello, .homepage-name, .about-me-hello,
+.about-paragraph, .contact-info, .card-text {
+    text-align: left;
 }
 
 ul {
-	color: var(--text-color-main);
 	list-style: none;
-	text-align: left;
 	padding: 0;
 	font-weight: 600;
 	font-size: 20px;
@@ -78,34 +95,19 @@ ul {
 	border-radius: 40px;
 	font-weight: 500;
 	font-family: var(--primary-font);
-	color: var(--accent-color);
 	background: var(--text-color-main);
-	border-color: var(--background-color);
 }
 
 .btn-success:hover {
-	background: var(--accent-color);
-	color: var(--text-color-main);
 	border-color: rgb(240, 227, 229);
 }
 
-.homepage-dev-hello {
-	text-align: left;
-	color: var(--text-color-main);
-	font-size: 40px;
-}
-
-.homepage-name {
-	text-align: left;
-}
-
 .fab,
-.fas {
+.fas, .homepage-dev-hello  {
 	font-size: 40px;
 }
 
 .home-page-hobbies {
-	color: var(--text-color-secondary);
 	font-size: 20px;
 }
 
@@ -117,18 +119,11 @@ ul {
 .value-two,
 .value-three,
 .value-four {
-	background-color: var(--background-color);
 	font-size: 35px;
-	text-align: center;
-	color: var(--text-color-main);
 }
 
 .value-pics {
 	border-radius: 35px;
-}
-
-.copyright {
-	text-align: center;
 }
 
 .pink-blob {
@@ -137,25 +132,12 @@ ul {
 	top: 70px;
 }
 
-a:hover {
-	color: var(--text-color-main);
-}
-
 .about-image {
 	width: 680px;
 }
 
 .about-paragraph {
 	font-size: 25px;
-}
-
-.about-me-hello,
-.about-paragraph {
-	text-align: left;
-}
-
-.here-link {
-	color: var(--text-color-main);
 }
 
 .skill-lists {
@@ -172,55 +154,38 @@ a:hover {
 	border-radius: 30px;
 }
 
+.html, .css, .javascript, .bootstrap, .excel {
+    background-color: var(--accent-color);
+}
+
 .html {
 	width: 100%;
-	background-color: var(--accent-color);
 	position: relative;
 	left: -25px;
 }
 
 .css {
 	width: 100%;
-	background-color: var(--accent-color);
 	position: relative;
 	left: -25px;
 }
 
 .javascript {
 	width: 70%;
-	background-color: var(--accent-color);
 	position: relative;
 	left: -25px;
 }
 
 .bootstrap {
 	width: 80%;
-	background-color: var(--accent-color);
 	position: relative;
 	left: -25px;
 }
 
 .excel {
 	width: 80%;
-	background-color: var(--accent-color);
 	position: relative;
 	left: -25px;
-}
-
-.about-my-skills {
-	color: var(--text-color-main);
-}
-
-.about-page-socials {
-	text-align: center;
-}
-
-.contact-info a {
-	color: var(--text-color-main);
-}
-
-.contact-info {
-	text-align: left;
 }
 
 .title-underline {
@@ -236,13 +201,8 @@ a:hover {
 	border-radius: 35px;
 }
 
-.about-contact-bottom {
-	color: var(--text-color-main);
-}
-
 .card-text {
 	font-size: 15px;
-	text-align: left;
 }
 
 /*home page responsiveness*/
