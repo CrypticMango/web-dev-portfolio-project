@@ -1,248 +1,259 @@
 :root {
---primary-font: 'Georama', sans-serif;
---background-color: #161616;
---text-color-main: #B4A5A5;
---text-color-secondary: #3D425D;
---accent-color: #e64855;
+	--primary-font: "Georama", sans-serif;
+	--background-color: #161616;
+	--text-color-main: #b4a5a5;
+	--text-color-secondary: #3d425d;
+	--accent-color: #e64855;
 }
 
 body {
-background-color: var(--background-color);
+	background-color: var(--background-color);
 }
- 
-p, h1, h2, h3, ul{
-    font-family: 'Georama', sans-serif;
-    text-align: center;
+
+p,
+h1,
+h2,
+h3,
+ul {
+	font-family: "Georama", sans-serif;
+	text-align: center;
 }
 
 h1 {
-    font-size: 96px;
-    color: var(--text-color-main);
+	font-size: 96px;
+	color: var(--text-color-main);
 }
 
 h2 {
-    font-size: 24px;
-    color: var(--text-color-secondary);
+	font-size: 24px;
+	color: var(--text-color-secondary);
 }
 
 p {
-    font-size: 36px;
-    font-weight: bold;
-    color: var(--accent-color);
+	font-size: 36px;
+	font-weight: bold;
+	color: var(--accent-color);
 }
 
 h3 {
-    color: var(--text-color-main);
-    font-size: 55px;
+	color: var(--text-color-main);
+	font-size: 55px;
 }
 
 span {
-    color: var(--text-color-main);
+	color: var(--text-color-main);
 }
 
 a {
-    text-decoration: none;
-    color: var(--accent-color);
+	text-decoration: none;
+	color: var(--accent-color);
 }
 
 footer {
-    color: var(--text-color-main);
-    background: rgb(20, 20, 20);
+	color: var(--text-color-main);
+	background: rgb(20, 20, 20);
 }
 
 hr {
-    color: var(--accent-color);
+	color: var(--accent-color);
 }
 
 ul {
-color: var(--text-color-main);
-list-style: none;
-text-align: left;
-padding: 0;
-font-weight: 600;
-font-size: 20px;
+	color: var(--text-color-main);
+	list-style: none;
+	text-align: left;
+	padding: 0;
+	font-weight: 600;
+	font-size: 20px;
 }
 
-.name, .hello, .fa-circle {
-    padding: 230px 20px;
+.name,
+.hello,
+.fa-circle {
+	padding: 230px 20px;
 }
 
 .btn-success {
-    padding: 20px 30px;
-    border-radius: 40px;
-    font-weight: 500;
-    font-family: var(--primary-font);
-    color: var(--accent-color);
-    background: var(--text-color-main);
-    border-color: var(--background-color);
+	padding: 20px 30px;
+	border-radius: 40px;
+	font-weight: 500;
+	font-family: var(--primary-font);
+	color: var(--accent-color);
+	background: var(--text-color-main);
+	border-color: var(--background-color);
 }
 
 .btn-success:hover {
-    background: var(--accent-color);
-    color: var(--text-color-main);
-    border-color: rgb(240, 227, 229);
+	background: var(--accent-color);
+	color: var(--text-color-main);
+	border-color: rgb(240, 227, 229);
 }
 
 .homepage-dev-hello {
-    text-align: left;
-    color: var(--text-color-main);
-    font-size: 40px;
-
+	text-align: left;
+	color: var(--text-color-main);
+	font-size: 40px;
 }
 
 .homepage-name {
-    text-align: left;
+	text-align: left;
 }
 
-.fab, .fas {
-    font-size: 40px;
+.fab,
+.fas {
+	font-size: 40px;
 }
 
 .home-page-hobbies {
-    color: var(--text-color-secondary);
-    font-size: 20px;
+	color: var(--text-color-secondary);
+	font-size: 20px;
 }
 
 .learn-more {
-    font-size: 25px;
+	font-size: 25px;
 }
 
-.value-one, .value-two, .value-three, .value-four {
-    background-color: var(--background-color);
-    font-size: 35px;
-    text-align: center;
-    color: var(--text-color-main);
+.value-one,
+.value-two,
+.value-three,
+.value-four {
+	background-color: var(--background-color);
+	font-size: 35px;
+	text-align: center;
+	color: var(--text-color-main);
 }
 
 .value-pics {
-    border-radius: 35px;
+	border-radius: 35px;
 }
 
 .copyright {
-    text-align: center;
+	text-align: center;
 }
 
 .pink-blob {
-    width: 600px;
-    position: relative;
-    top: 70px;
+	width: 600px;
+	position: relative;
+	top: 70px;
 }
 
 a:hover {
-    color: var(--text-color-main);
+	color: var(--text-color-main);
 }
 
-@media (max-width:768px) {
-    .homepage-dev-hello, .hello {
-       text-align: center;
-    }
- }
+@media (max-width: 768px) {
+	.homepage-dev-hello,
+	.hello {
+		text-align: center;
+	}
+}
 
-@media (max-width:768px) {
-     .pink-blob {
-        display: none;
-     }
- }
+@media (max-width: 768px) {
+	.pink-blob {
+		display: none;
+	}
+}
 
- .about-image {
-     width: 680px;
- }
+.about-image {
+	width: 680px;
+}
 
- .about-paragraph {
-     font-size: 25px;
- }
+.about-paragraph {
+	font-size: 25px;
+}
 
- .about-me-hello,  .about-paragraph {
-     text-align: left;
- }
+.about-me-hello,
+.about-paragraph {
+	text-align: left;
+}
 
- .here-link {
-     color: var(--text-color-main);
- }
+.here-link {
+	color: var(--text-color-main);
+}
 
- .skill-lists {
-    width: 100%; /* Full width */
-    background-color: var(--text-color-main); /* Grey background */
-    border-radius: 30px;
-  }
+.skill-lists {
+	width: 100%; /* Full width */
+	background-color: var(--text-color-main); /* Grey background */
+	border-radius: 30px;
+}
 
- .skills {
-    text-align: right; /* Right-align text */
-    padding-top: 10px; /* Add top padding */
-    padding-bottom: 10px; /* Add bottom padding */
-    color: var(--background-color); /* White text color */
-    border-radius: 30px;
-  }
+.skills {
+	text-align: right; /* Right-align text */
+	padding-top: 10px; /* Add top padding */
+	padding-bottom: 10px; /* Add bottom padding */
+	color: var(--background-color); /* White text color */
+	border-radius: 30px;
+}
 
-  .html {
-    width: 100%; 
-    background-color: var(--accent-color);
-    position: relative;
-    left: -25px;
+.html {
+	width: 100%;
+	background-color: var(--accent-color);
+	position: relative;
+	left: -25px;
 }
 
 .css {
-    width: 100%; 
-    background-color: var(--accent-color);
-    position: relative;
-    left: -25px;
+	width: 100%;
+	background-color: var(--accent-color);
+	position: relative;
+	left: -25px;
 }
 
 .javascript {
-    width: 70%; 
-    background-color: var(--accent-color);
-    position: relative;
-    left: -25px;
+	width: 70%;
+	background-color: var(--accent-color);
+	position: relative;
+	left: -25px;
 }
 
 .bootstrap {
-    width: 80%; 
-    background-color: var(--accent-color);
-    position: relative;
-    left: -25px;
+	width: 80%;
+	background-color: var(--accent-color);
+	position: relative;
+	left: -25px;
 }
 
 .excel {
-    width: 80%; 
-    background-color: var(--accent-color);
-    position: relative;
-    left: -25px;
+	width: 80%;
+	background-color: var(--accent-color);
+	position: relative;
+	left: -25px;
 }
 
 .about-my-skills {
-    color: var(--text-color-main);
+	color: var(--text-color-main);
 }
 
 .about-page-socials {
-    text-align: center;
+	text-align: center;
 }
 
 .contact-info a {
-color: var(--text-color-main);
+	color: var(--text-color-main);
 }
 
 .contact-info {
-    text-align: left;
+	text-align: left;
 }
 
 .title-underline {
-    border: 5px solid var(--accent-color);
-    width: 100px;
-   margin-left: auto;
-margin-right: auto;
-    opacity: .75;
-   
+	border: 5px solid var(--accent-color);
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.75;
 }
 
-.contact-image, .about-image {
-    border-radius: 35px;
+.contact-image,
+.about-image {
+	border-radius: 35px;
 }
 
 .about-contact-bottom {
-    color: var(--text-color-main);
+	color: var(--text-color-main);
 }
 
 .card-text {
-    font-size: 15px;
-    text-align: left;
+	font-size: 15px;
+	text-align: left;
 }
