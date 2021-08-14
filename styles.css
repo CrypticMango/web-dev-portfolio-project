@@ -141,19 +141,6 @@ a:hover {
 	color: var(--text-color-main);
 }
 
-@media (max-width: 768px) {
-	.homepage-dev-hello,
-	.hello {
-		text-align: center;
-	}
-}
-
-@media (max-width: 768px) {
-	.pink-blob {
-		display: none;
-	}
-}
-
 .about-image {
 	width: 680px;
 }
@@ -256,4 +243,133 @@ a:hover {
 .card-text {
 	font-size: 15px;
 	text-align: left;
+}
+
+/*home page responsiveness*/
+@media (max-width: 1024px) {
+	.homepage-dev-hello,
+	.hello {
+		text-align: center;
+	}
+}
+
+@media (max-width: 1024px) {
+	.hello {
+		display: block;
+        margin: 0 auto;
+	}
+}
+
+@media (max-width: 1024px) {
+	.homepage-name {
+		font-size: 80px;
+	}
+}
+
+@media (max-width: 768px) {
+	.value-one, .value-two, .value-three, .value-four {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 576px) {
+	.value-pics {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.pink-blob {
+		display: none;
+	}
+}
+
+/*about page responsiveness*/
+@media (max-width: 576px) {
+    .about-title {
+    font-size: 55px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-me-hello {
+    font-size: 19px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-paragraph {
+    font-size: 19px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about-image-div {
+        display: none;
+    }
+}
+
+/*works page responsiveness*/
+@media (max-width:576px) {
+     .works-title{
+        font-size: 55px;
+    }
+}
+
+@media (max-width:576px) {
+    .works-cards {
+    display: block;
+    margin: 0 auto;
+    }
+}
+
+/*contact page responsiveness*/
+
+@media (max-width:576px) {
+    .contact-title {
+       font-size: 55px;
+   }
+}
+
+@media (max-width:576px) {
+    .contact-info {
+       font-size: 20px;
+   }
+}
+
+@media (max-width: 768px) {
+    .contact-image {
+       width: 294px;
+       display: block;
+       margin: auto;
+   }
+}
+
+@media (max-width: 1024px) {
+    .contact-info {
+       font-size: 25px;
+   }
+}
+
+@media (max-width: 1024px) {
+    .contact-image {
+      width: 550px;
+   }
+}
+
+@media (max-width: 540px) {
+    .contact-image {
+      width: 400px;
+   }
+}
+
+@media (max-width: 280px) {
+    .contact-info {
+     font-size: 20px;
+   }
+}
+@media (max-width: 280px) {
+    .contact-image {
+     display: none;
+   }
 }
